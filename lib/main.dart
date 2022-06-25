@@ -14,12 +14,12 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   List<String> restaurants = [
-    'McDonald\'s',
-    'Roscoe\'s Chicken & Waffles',
-    'Olive Garden',
-    'Pizza Hut',
-    'Panda Express',
-    'Subway'
+    'McNoland\'s',
+    'Doe\'s Chicken & Bakery',
+    'Mama Put',
+    'Spices Hut',
+    'Food Land',
+    'Rodina'
   ];
 
   int currentIndex;
@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
               updateIndex();
             },
             child: Text('Pick Restaurant'),
-            color: Colors.purple,
+            color: Colors.teal,
             textColor: Colors.white,
           )
         ],
